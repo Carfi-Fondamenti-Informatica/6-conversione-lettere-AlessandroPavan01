@@ -2,13 +2,13 @@
 using namespace std;
 #include "lib.h"
 
-int main(){
+int main() {
     char a=a;
     cin>>a;
-    if(conversione (a)==false){
-        cout<< "errore";
+    if(conversione(a)== false ){
+        cout << "errore";
     }else{
-        cout<< a;
+        cout << a;
     }
     return 0;
 }
